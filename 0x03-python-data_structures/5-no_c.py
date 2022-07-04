@@ -6,4 +6,3 @@ def no_c(my_string):
         if x != "c" and x != "C":
             b += x
     return b
-            #print("{:s}".format(my_string[x]), end='')
