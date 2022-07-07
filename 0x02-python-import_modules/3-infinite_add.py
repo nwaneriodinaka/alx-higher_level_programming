@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    def add(*b):
-        total = 0
-        for x in b:
-            total = total + x
-    print("{}".format(add(*b)))
+    from sys import argv
+    total = 0
+    y = len(argv) 
+    for x in range(1, y):
+        z = int(argv[x])
+        total += z
+    print("{}".format(total))
